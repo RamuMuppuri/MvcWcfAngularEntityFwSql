@@ -32,4 +32,12 @@ namespace SampleProject_1.Controllers
             return View();
         }
     }
+
+    public class EmployeePostController : Controller
+    {
+        public ViewResult ReturnEmpPostView()
+        {
+            return View();
+        }
+    }
 }
