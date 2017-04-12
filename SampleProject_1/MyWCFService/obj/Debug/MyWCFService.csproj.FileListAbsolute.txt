@@ -21,3 +21,26 @@ C:\Users\muppu\documents\visual studio 2015\Projects\SampleProject_1\MyWCFServic
 C:\Users\muppu\documents\visual studio 2015\Projects\SampleProject_1\MyWCFService\obj\Debug\MyWCFService.csprojResolveAssemblyReference.cache
 C:\Users\muppu\documents\visual studio 2015\Projects\SampleProject_1\MyWCFService\obj\Debug\MyWCFService.dll
 C:\Users\muppu\documents\visual studio 2015\Projects\SampleProject_1\MyWCFService\obj\Debug\MyWCFService.pdb
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\ApplicationInsights.config
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\MyWCFService.dll.config
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\MyWCFService.dll
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\MyWCFService.pdb
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\EntityFramework.dll
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\EntityFramework.SqlServer.dll
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\Microsoft.AI.Web.dll
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\Microsoft.ApplicationInsights.dll
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\EntityFramework.xml
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\EntityFramework.SqlServer.xml
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\Microsoft.AI.Web.xml
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\bin\Microsoft.ApplicationInsights.xml
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\obj\Debug\MyWCFService.csprojResolveAssemblyReference.cache
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\obj\Debug\MyWCFService.dll
+C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\obj\Debug\MyWCFService.pdb
