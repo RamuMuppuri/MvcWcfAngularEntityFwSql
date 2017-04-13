@@ -1,5 +1,4 @@
-﻿
-//Seperate each angular controller to make our code Managable & Seperable
+﻿//Seperate each angular controller to make our code Managable & Seperable
 angular.module('myApp') //extending from previously created angular module
                    .controller("EmpCtrl", function ($scope, empservice) { //create a Employee controller 
                        $scope.employees = null;
