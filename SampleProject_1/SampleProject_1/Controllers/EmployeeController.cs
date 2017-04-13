@@ -25,19 +25,4 @@ namespace SampleProject_1.Controllers
             return Json(ListOfEmployees, JsonRequestBehavior.AllowGet);
         }
     }
-    public class EmployeeFetchController : Controller
-    {
-        public ViewResult ReturnHomeView()
-        {
-            return View();
-        }
-    }
-
-    public class EmployeePostController : Controller
-    {
-        public ViewResult ReturnEmpPostView()
-        {
-            return View();
-        }
-    }
 }
