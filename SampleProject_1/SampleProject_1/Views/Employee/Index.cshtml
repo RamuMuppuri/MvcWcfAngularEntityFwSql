@@ -12,11 +12,14 @@
     <script src="~/Scripts/jquery-3.1.0.min.js"></script>
     <script src="~/Scripts/angular.js"></script>
     <script src="~/Scripts/myApp.js"></script>
+    <style> table, th, td {border: 1px solid black;border-collapse: collapse; } </style>
 </head>
+
 <body>
     <div ng-app="myApp" ng-controller="EmpCtrl">
         <table style="border:1px solid gray;">
             <tr>
+                <th>SL.NO</th>
                 <th>Employee FN</th>
                 <th>Employee LN</th>
                 <th>Project Name</th>
@@ -24,6 +27,7 @@
                 <th>Experience Level</th>
             </tr>
             <tr ng-repeat="emp in employees">
+                <td>{{emp.ID}}</td>
                 <td>{{emp.FirstName}}</td>
                 <td>{{emp.LastName}}</td>
                 <td>{{emp.ProjectTitle}}</td>
