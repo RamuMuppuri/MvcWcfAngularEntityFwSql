@@ -1,0 +1,27 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+@* Here ng-app="myApp" menas bootstrap of Angular JS Application 
+   <body> element is the owner of the Angular JS application    
+*@
+<body ng-app="myApp">    
+    @RenderBody()
+    
+    @Scripts.Render("~/bundles/jquery")
+
+    @* Add Angular Library Here*@
+    @Scripts.Render("~/bundles/angular")
+    <script src="~/Scripts/myApp.js"></script>
+    @DateTime.Now.Year
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

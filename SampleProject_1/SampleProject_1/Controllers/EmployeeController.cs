@@ -13,7 +13,7 @@ namespace SampleProject_1.Controllers
     {
 
         private EmployeeServiceClient esc = new EmployeeServiceClient();
-        public ActionResult Index()
+        public ActionResult EmpIndex()
         {
             return View();
         }
