@@ -12,11 +12,7 @@ namespace SampleProject_1.Controllers
     public class EmployeeController : Controller
     {
 
-        private EmployeeServiceClient esc = new EmployeeServiceClient();
-        public ActionResult EmpIndex()
-        {
-            return View();
-        }
+        private EmployeeServiceClient esc = new EmployeeServiceClient();       
         // GET: Employee      
        
         public JsonResult GetEmployee()

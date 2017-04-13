@@ -268,7 +268,7 @@
     <None Include="Service References\EmployeeService\EmployeeService2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <Content Include="Views\Employee\EmpIndex.cshtml" />
+    <Content Include="Views\Home\EmpIndex.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
@@ -276,7 +276,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Home\" />
+    <Folder Include="Views\Employee\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
