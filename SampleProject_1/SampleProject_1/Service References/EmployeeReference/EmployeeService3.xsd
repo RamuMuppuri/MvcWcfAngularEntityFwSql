@@ -17,4 +17,13 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="EmployeeTBL" nillable="true" type="tns:EmployeeTBL" />
+  <xs:complexType name="UsersTBL">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserID" type="xs:int" />
+      <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UsersTBL" nillable="true" type="tns:UsersTBL" />
 </xs:schema>

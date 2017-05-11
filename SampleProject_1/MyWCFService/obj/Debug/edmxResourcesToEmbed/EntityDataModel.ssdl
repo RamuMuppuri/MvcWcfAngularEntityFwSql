@@ -11,7 +11,17 @@
     <Property Name="ProjectStatus" Type="nvarchar" MaxLength="50" />
     <Property Name="ExpLevel" Type="nvarchar" MaxLength="50" />
   </EntityType>
+  <EntityType Name="UsersTBL">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
   <EntityContainer Name="EmployeeDBModelStoreContainer">
     <EntitySet Name="EmployeeTBL" EntityType="Self.EmployeeTBL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UsersTBL" EntityType="Self.UsersTBL" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "LoginEmp";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    
+    <style>
+        input {
+            padding: 5px;
+            border: 1px solid #A5A5A5;
+        }
+        input.ng-dirty.ng-invalid {
+                border: 1px solid red;
+                background-color: rgb(255, 244, 244);
+            }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Login Page</h2>
+    <div ng-app="myApp" ng-controller="LoginCtrl">
+        <form novalidate name="f1" ng-submit="Login()">
+            <div style="color:rgb(142,2,2)">{{Message}}</div>
+            <table ng-show="! IsLoggedIn">
+                <!--Here we hide the table after logged in-->
+                <tr>
+                    <td> User Name: </td>
+                    <td>
+                        <!-- Here ng-class is used to know if submitted (cllicked submit button) then make this dirty state for showing red border-->
+                        <input type="text" ng-model="LoginData.Username" name="cUsername" ng-class="Submitted?'ng-dirty':'' " required autofocus />
+                        <span class="error" ng-show="(f1.cUsername.$dirty|| Submitted) && f1.cUsername.$error.required">User Name Required</span>
+                        <!-- ng-show is used to show span only when the control cUsername is invalid-->
+                    </td>
+                </tr>
+                <tr>
+                    <td> Password: </td>
+                    <td>
+                        <input type="password" ng-model="LoginData.Password" name="cPassword" ng-class="Submitted?'ng-dirty':'' " required autofocus />
+                        <span class="error" ng-show="(f1.cPassword.$dirty|| Submitted) && f1.cPassword.$error.required">Password Required</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Login" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </div>
+</body>
+</html>
+@section scripts{
+    <script src="~/Scripts/Controllers/Login.js"></script>
+}

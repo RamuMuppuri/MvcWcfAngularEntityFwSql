@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\muppu\documents\visual studio 2015\Projects\SampleProject_1\MyWCFService\EntityDataModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\muppu\Documents\GitHub\MvcWcfAngularEntityFwSql\SampleProject_1\MyWCFService\EntityDataModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

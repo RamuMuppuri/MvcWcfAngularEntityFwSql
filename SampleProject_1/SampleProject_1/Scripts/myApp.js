@@ -4,6 +4,6 @@
     //Create a Controller
                       .controller("Emp", function ($scope) { //create a Employee controller 
                          //$scope used for share dat between Ctrl and View
-                         $scope.Message = "I will go to View by Message Property"; 
+                         //$scope.Message = "I will go to View by Message Property"; 
                        });
              })();

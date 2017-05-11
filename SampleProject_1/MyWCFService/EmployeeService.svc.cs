@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyWCFService.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -15,6 +16,11 @@ namespace MyWCFService
         public List<EmployeeTBL> GetEmployees()
         {
             return edm.EmployeeTBLs.ToList();
+        }
+        public UsersTBL LoginDetails(LoginData data)
+        {
+            var user = edm.UsersTBLs.Where(a => a.UserName.Equals(data.UserName) && a.password.Equals(data.password)).FirstOrDefault();
+            return user;
         }
     }
 }

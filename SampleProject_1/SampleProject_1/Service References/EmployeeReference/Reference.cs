@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SampleProject_1.EmployeeService {
+namespace SampleProject_1.EmployeeReference {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="EmployeeService.IEmployeeService")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="EmployeeReference.IEmployeeService")]
     public interface IEmployeeService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/GetEmployees", ReplyAction="http://tempuri.org/IEmployeeService/GetEmployeesResponse")]
@@ -20,15 +20,21 @@ namespace SampleProject_1.EmployeeService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/GetEmployees", ReplyAction="http://tempuri.org/IEmployeeService/GetEmployeesResponse")]
         System.Threading.Tasks.Task<MyWCFService.EmployeeTBL[]> GetEmployeesAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/LoginDetails", ReplyAction="http://tempuri.org/IEmployeeService/LoginDetailsResponse")]
+        MyWCFService.UsersTBL LoginDetails(MyWCFService.Models.LoginData data);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IEmployeeService/LoginDetails", ReplyAction="http://tempuri.org/IEmployeeService/LoginDetailsResponse")]
+        System.Threading.Tasks.Task<MyWCFService.UsersTBL> LoginDetailsAsync(MyWCFService.Models.LoginData data);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IEmployeeServiceChannel : SampleProject_1.EmployeeService.IEmployeeService, System.ServiceModel.IClientChannel {
+    public interface IEmployeeServiceChannel : SampleProject_1.EmployeeReference.IEmployeeService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class EmployeeServiceClient : System.ServiceModel.ClientBase<SampleProject_1.EmployeeService.IEmployeeService>, SampleProject_1.EmployeeService.IEmployeeService {
+    public partial class EmployeeServiceClient : System.ServiceModel.ClientBase<SampleProject_1.EmployeeReference.IEmployeeService>, SampleProject_1.EmployeeReference.IEmployeeService {
         
         public EmployeeServiceClient() {
         }
@@ -55,6 +61,14 @@ namespace SampleProject_1.EmployeeService {
         
         public System.Threading.Tasks.Task<MyWCFService.EmployeeTBL[]> GetEmployeesAsync() {
             return base.Channel.GetEmployeesAsync();
+        }
+        
+        public MyWCFService.UsersTBL LoginDetails(MyWCFService.Models.LoginData data) {
+            return base.Channel.LoginDetails(data);
+        }
+        
+        public System.Threading.Tasks.Task<MyWCFService.UsersTBL> LoginDetailsAsync(MyWCFService.Models.LoginData data) {
+            return base.Channel.LoginDetailsAsync(data);
         }
     }
 }

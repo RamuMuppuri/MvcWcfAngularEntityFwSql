@@ -11,7 +11,12 @@ namespace SampleProject_1.Controllers
         public ActionResult EmpIndex()
         {
             return View();
-        }       
+        }
+
+        public ActionResult LoginEmp()
+        {
+            return View();
+        }     
   
     }
 }

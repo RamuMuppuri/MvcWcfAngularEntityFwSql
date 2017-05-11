@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyWCFService.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -14,6 +15,7 @@ namespace MyWCFService
         
             [OperationContract]
             List<EmployeeTBL> GetEmployees();
-        
+            [OperationContract]
+            UsersTBL LoginDetails(LoginData data);
     }
 }

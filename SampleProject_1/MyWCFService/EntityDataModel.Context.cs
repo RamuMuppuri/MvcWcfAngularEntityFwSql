@@ -26,5 +26,6 @@ namespace MyWCFService
         }
     
         public virtual DbSet<EmployeeTBL> EmployeeTBLs { get; set; }
+        public virtual DbSet<UsersTBL> UsersTBLs { get; set; }
     }
 }
